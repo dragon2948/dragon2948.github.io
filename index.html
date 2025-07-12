@@ -478,9 +478,9 @@
                 </a>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -506,18 +506,90 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="fade-in">
+     <!-- Projects Section -->
+    <section id="projects" class="fade-in">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="https://via.placeholder.com/250x250/667eea/ffffff?text=Your+Photo" alt="Profile" class="profile-img">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Autonomous Navigation System</h3>
+                        <p class="project-description">
+                            Complete autonomous navigation system for Agilex LIMO robot featuring SLAM, path planning, and obstacle avoidance with 95% success rate.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">ROS 1</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Lidar</span>
+                            <span class="tech-tag">SLAM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-play"></i> Demo Video
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="about-text">
-                    <p>I'm a passionate Robotics Systems Engineering student with hands-on experience developing real-time control systems and autonomous mobile robots. I specialize in applying ROS 1, Gazebo, and OpenCV to implement core robotics capabilities like SLAM, sensor fusion, and autonomous navigation on platforms such as the Agilex LIMO robot.</p>
-                    <p>Currently pursuing a Bachelor's degree in Robotics Systems Engineering, I bridge theoretical understanding with practical implementation—designing systems that integrate Lidar, camera sensors, and embedded platforms to solve real-world robotics challenges. I also maintain clean, modular code in Python and C++, manage projects using Git, and build reproducible systems with Catkin and CMake.</p>
-                    <p>I'm especially driven to advance the field of autonomous robotics and actively contribute to open-source robotics communities by sharing knowledge, tools, and collaborative projects.</p>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Multi-Modal Control Interface</h3>
+                        <p class="project-description">
+                            Versatile control system supporting manual teleoperation, waypoint navigation, and follow-me mode with real-time diagnostics.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">ROS 1</span>
+                            <span class="tech-tag">Qt</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Joystick</span>
+                            <span class="tech-tag">GUI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-play"></i> Demo Video
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Computer Vision Pipeline</h3>
+                        <p class="project-description">
+                            Real-time object detection and tracking system with 92% accuracy, featuring 3D position estimation and navigation integration.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">YOLO</span>
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Stereo Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-play"></i> Demo Video
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -580,6 +652,25 @@
         </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/250x250/667eea/ffffff?text=Your+Photo" alt="Profile" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate Robotics Systems Engineering student with hands-on experience developing real-time control systems and autonomous mobile robots. I specialize in applying ROS 1, Gazebo, and OpenCV to implement core robotics capabilities like SLAM, sensor fusion, and autonomous navigation on platforms such as the Agilex LIMO robot.</p>
+                    <p>Currently pursuing a Bachelor's degree in Robotics Systems Engineering, I bridge theoretical understanding with practical implementation—designing systems that integrate Lidar, camera sensors, and embedded platforms to solve real-world robotics challenges. I also maintain clean, modular code in Python and C++, manage projects using Git, and build reproducible systems with Catkin and CMake.</p>
+                    <p>I'm especially driven to advance the field of autonomous robotics and actively contribute to open-source robotics communities by sharing knowledge, tools, and collaborative projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    
     <!-- Contact Section -->
     <section id="contact" class="fade-in">
         <div class="container">
