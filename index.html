@@ -47,7 +47,11 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-image: url('https://dragon2948.github.io/pictures/background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             overflow-x: hidden;
         }
 
@@ -128,11 +132,7 @@
             text-align: center;
             color: white;
             position: relative;
-            background-image: url('https://dragon2948.github.io/pictures/background.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+            background: transparent;
             overflow: hidden;
         }
 
@@ -204,11 +204,11 @@
 
         /* Only apply white background to non-hero sections */
         section:not(.hero) {
-            background: white;
+            background: rgba(255, 255, 255, 0.95);
         }
 
         section:nth-child(even):not(.hero) {
-            background: #f8f9fa;
+            background: rgba(248, 249, 250, 0.95);
         }
 
         .section-title {
