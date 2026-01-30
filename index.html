@@ -103,7 +103,7 @@
         .nav-links a:hover {
             color: #ffd700;
         }
-    /* test*/
+
         .nav-links a::after {
             content: '';
             position: absolute;
@@ -128,12 +128,11 @@
             text-align: center;
             color: black;
             position: relative;
-            background-image: url('pictures/background.png');
+            background-image: url('https://dragon2948.github.io/pictures/background.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             overflow: hidden;
-            z-index: 1;
         }
 
         .hero-content {
@@ -186,7 +185,7 @@
             position: absolute;
             width: 20px;
             height: 20px;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.05);
             border-radius: 50%;
             animation: float 6s ease-in-out infinite;
         }
@@ -199,11 +198,15 @@
         /* Sections */
         section {
             padding: 80px 0;
-            background: white;
             margin-top: -5px;
         }
 
-        section:nth-child(even) {
+        /* Only apply white background to non-hero sections */
+        section:not(.hero) {
+            background: white;
+        }
+
+        section:nth-child(even):not(.hero) {
             background: #f8f9fa;
         }
 
