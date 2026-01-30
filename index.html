@@ -202,21 +202,13 @@
             margin-top: -5px;
         }
 
-        /* Only apply white background to non-hero sections */
-        section:not(.hero) {
-            background: rgba(255, 255, 255, 0.95);
-        }
-
-        section:nth-child(even):not(.hero) {
-            background: rgba(248, 249, 250, 0.95);
-        }
-
         .section-title {
             text-align: center;
             font-size: 2.5rem;
             margin-bottom: 3rem;
-            color: #333;
+            color: white;
             position: relative;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .section-title::after {
@@ -259,6 +251,8 @@
         .about-text {
             font-size: 1.1rem;
             line-height: 1.8;
+            color: white;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
         }
 
         /* Skills Section */
